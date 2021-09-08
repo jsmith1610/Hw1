@@ -6,7 +6,8 @@
 # Helpful Commands 
 The Git add command moves changes to the staging area.
 Here is a basic example of using add:
-git add filename
+
+- git add filename
 
 - This one i think is the most helpful for us to add but once you add i don't think you need to add again cause it is already   tracked i could be wrong though
 # 
