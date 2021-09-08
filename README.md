@@ -6,7 +6,9 @@
 # Helpful Commands 
 The Git add command moves changes to the staging area.
 Here is a basic example of using add:
-git add <file>       This one i think is the most helpful for us to add but once you add i don't think you need to add again cause it is already tracked i could be wrong though
+git add filename
+
+- This one i think is the most helpful for us to add but once you add i don't think you need to add again cause it is already   tracked i could be wrong though
 # 
 
 # ADD command
@@ -29,7 +31,7 @@ git commit
 After running the Git commit command, you need to type in the description of the commit in the text editor.
 This Git commit example shows how you set the description with the commit function:
 
-git commit -m "<message>"     I feel this is the best one for us 
+git commit -m "message"     I feel this is the best one for us 
 
 The following example shows how to save a snapshot of changes done in the whole working directory. This code only works for tracked files.
 git commit -a
