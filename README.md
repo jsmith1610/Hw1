@@ -37,3 +37,20 @@ git commit -m "message"     I feel this is the best one for us
 The following example shows how to save a snapshot of changes done in the whole working directory. This code only works for tracked files.
 git commit -a
 #
+
+# BRANCH off command 
+Creating a New Branch
+
+What happens when you create a new branch? Well, doing so creates a new pointer for you to move around. Let’s say you want to create a new branch called testing. You do this with the git branch command:
+
+git branch testing
+
+Switching Branches
+
+To switch to an existing branch, you run the git checkout command. Let’s switch to the new testing branch:
+
+$ git checkout testing
+
+This moves HEAD to point to the testing branch.
+
+#
